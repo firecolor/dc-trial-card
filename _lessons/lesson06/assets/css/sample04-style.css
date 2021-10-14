@@ -29,13 +29,9 @@ body {
      │100px│1fr│1fr
     2└     ┴   ┘
     */
-    position: absolute;
-    inset: 0;
     width: 344px;
     height: 208px;
-    margin: auto;
     background: #fff;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2), 8px 8px 16px rgba(0, 0, 0, .1);
 }
 
 
@@ -52,42 +48,4 @@ body {
     height: auto;
     max-width: 100%;
     max-height: 100%;
-}
-
-
-/* ------------------------
- * カードのテキスト部分
- * --------------------- */
-/* ---- 枠 ---- */
-.card_contents {
-    grid-row: 1 / 2;
-    grid-column: 2 / 3;
-    padding: 10px 10px 10px 0;
-    line-height: 1;
-}
-
-/* ---- 組織名 ---- */
-.org {
-    color: #F27E18;
-    font-size: 1.25rem;
-}
-
-/* ---- 所属 ---- */
-.member {
-    display: block;
-    margin-top: 16px;
-    font-size: .9rem;
-}
-
-/* ---- 名前 ---- */
-.name {
-    margin-top: 10px;
-    font-size: 1.6rem;
-    font-weight: normal;
-}
-
-/* ---- メッセージ ---- */
-.msg {
-    margin-top: calc(10px - .2rem);
-    line-height: 1.4;
 }
